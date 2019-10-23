@@ -289,6 +289,7 @@
      <Compile Include="Assets\Doozy\Editor\Windows\DoozyWindowStyles.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\Editor\UIButtonAutomatedTextValueEditor.cs" />
      <Compile Include="Assets\Doozy\Integrations\Editor\Playmaker\PlaymakerEventDispatcherEditor.cs" />
+     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
      <None Include="Assets\Doozy\Editor\Nody\Shaders\LineDraw.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ASUS/Documents/Android UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

@@ -15,8 +15,32 @@ MonoBehaviour:
   CategoryName: Trylateralui
   DatabaseType: 2
   Names:
+  - Arm1
+  - Arm2
+  - Arm3
+  - Arm4
+  - Arm5
+  - Armchair_screen
   - Categories_screen
   - Home_screen
+  - Sofa1
+  - Sofa2
+  - Sofa3
+  - Sofa4
+  - Sofa5
   - Sofas_screen
   - UIDrawer
-  - Sofa1
+  - Bed_screen
+  - Bed1
+  - Bed2
+  - Bed3
+  - Table_screen
+  - Table1
+  - Table2
+  - Table3
+  - Table4
+  - Accesories
+  - Acc1
+  - Acc2
+  - Acc3
+  - 

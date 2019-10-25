@@ -289,7 +289,6 @@
      <Compile Include="Assets\Doozy\Editor\Windows\DoozyWindowStyles.cs" />
      <Compile Include="Assets\Doozy\Examples\Scripts\Editor\UIButtonAutomatedTextValueEditor.cs" />
      <Compile Include="Assets\Doozy\Integrations\Editor\Playmaker\PlaymakerEventDispatcherEditor.cs" />
-     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
      <None Include="Assets\Doozy\Editor\Nody\Shaders\LineDraw.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ASUS/Documents/Android UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -928,6 +927,10 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{CC34ED42-158A-3678-187F-1DEE3CBBDFCB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{BAD586D6-1178-FB33-15B7-B74583912DF2}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{17BE7C3E-2E85-96AC-0917-07E547E999B7}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

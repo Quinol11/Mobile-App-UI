@@ -325,25 +325,31 @@
      <Compile Include="Assets\Lean\Touch\Scripts\LeanGesture.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\BoundingBoxRenderer.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultModelRecoEventHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\Internal\RuntimeOpenSourceInitializer.cs" />
+     <None Include="Assets\StreamingAssets\Vuforia\ARprototype.xml" />
      <None Include="Assets\Doozy\Examples\Fonts\Quicksand\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUVNV12_YUVNV21.cginc" />
      <None Include="Assets\Doozy\Examples\Fonts\Montserrat\OFL.txt" />
      <None Include="Assets\Doozy\Examples\Fonts\Baloo_Bhaina\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Julius_Sans_One\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Doozy\Examples\Fonts\Unica_One\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Doozy\Examples\Shaders\DRimLightSelective.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
      <None Include="Assets\Doozy\Examples\Fonts\Monoton\OFL.txt" />
      <None Include="Assets\Doozy\Examples\Shaders\DRimLightSolid.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Anton\OFL.txt" />
      <None Include="Assets\Doozy\Examples\Fonts\Emilys_Candy\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Doozy\Examples\Fonts\Bubblegum_Sans\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -353,6 +359,7 @@
      <None Include="Assets\Doozy\Examples\Fonts\Bangers\OFL.txt" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Permanent_Marker\LICENSE.txt" />
      <None Include="Assets\Doozy\Examples\Fonts\Pacifico\OFL.txt" />
      <None Include="Assets\Doozy\Examples\Shaders\DLitSurface.shader" />
@@ -362,17 +369,22 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Oswald\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Crafty_Girls\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Doozy\Examples\Fonts\Baloo_Chettan\OFL.txt" />
      <None Include="Assets\Doozy\Examples\Fonts\Flavors\OFL.txt" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
      <None Include="Assets\Doozy\Examples\Fonts\Megrim\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\3d models\NewSurfaceShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Doozy\Examples\Shaders\DRimLightTransparent.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\Doozy\readme.txt" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/ASUS/Documents/Android UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -950,6 +962,12 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.7f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{BAD586D6-1178-FB33-15B7-B74583912DF2}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{17BE7C3E-2E85-96AC-0917-07E547E999B7}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

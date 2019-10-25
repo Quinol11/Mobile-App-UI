@@ -325,6 +325,7 @@
      <Compile Include="Assets\Lean\Touch\Scripts\LeanGesture.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\LevelLoader.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\ARprototype.xml" />
      <None Include="Assets\Doozy\Examples\Fonts\Quicksand\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />

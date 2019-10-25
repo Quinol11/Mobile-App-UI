@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/AR scene.unity
+- path: Assets/Scenes/UI scene.unity
   isLoaded: 1
   isActive: 1

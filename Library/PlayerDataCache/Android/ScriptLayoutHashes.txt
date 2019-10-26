@@ -1,10 +1,11 @@
 Android
 PlayerPath?
-C:/Users/ASUS/Documents/Android UI/ui2.apk
+C:/Users/ASUS/Documents/Android UI/ARwp3 disable AAmat.apk
 SceneListBegin?
 Assets/Scenes/UI scene.unity
+Assets/Scenes/AR scene.unity
 SceneListEnd?
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BoundingBoxRenderer
+71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 c4d06f7141c81e5114a5c1c92b6cb894 Assembly-CSharp.dll:Doozy.Engine.Nody.Models.Node
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 a1c00d1e10cbc9ad31c5a155293e0dbc Assembly-CSharp.dll:Lean.Touch.LeanFingerSet
@@ -69,8 +70,6 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Lean.Touch.LeanTouchEvents
 b31ef1c110c5a7ed74ad67be3ae59038 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 049b2e3dea31e6634209bddb94dd9390 Assembly-CSharp.dll:Doozy.Engine.GameEventListener
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
-71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 e6e8eb7576996efd6f1ee56f31ca7ade Assembly-CSharp.dll:Doozy.Engine.UI.Settings.UIDrawerSettings
 a1fcc866397a836af63817d24343caca Assembly-CSharp.dll:Lean.Common.Examples.LeanDocumentation
 dbda50f8aae04cd809bdbbce69f865cc Assembly-CSharp.dll:Lean.Touch.LeanSelect
@@ -148,16 +147,18 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 1283539fac16179e3e70c0832e77742e Assembly-CSharp.dll:Doozy.Engine.Nody.Nodes.ExitNode
 2535168d4111c89c25c9e5df7d237600 Assembly-CSharp.dll:Doozy.Engine.Progress.ProgressTargetText
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DefaultInitializationErrorHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultInitializationErrorHandler
 1617f63f40e4cfa654388e0d91e132ea Assembly-CSharp.dll:Doozy.Engine.UI.Settings.UIPopupSettings
 6c1ab29ddfcd6014cccb0aadc55da469 Assembly-CSharp.dll:Lean.Touch.LeanPlane
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Doozy.Engine.Soundy.SoundyManager
 269df95053edbc8a2f22970474a7780b Assembly-CSharp.dll:Doozy.Engine.UI.UIToggle
 77ffc8f4226334e9f550086ebdd12841 Assembly-CSharp.dll:Lean.Touch.LeanFingerSwipe
 e29dc6e16288125d4ed363e0cad86897 Assembly-CSharp.dll:Doozy.Engine.UI.Nodes.BackButtonNode
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LevelLoader
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 48e7b286157118d9659dd0bcf5e4c0c1 Assembly-CSharp.dll:Doozy.Engine.UI.Base.NamesDatabase
+3eab57b502b9af12bdeec973c99d50d3 Assembly-CSharp.dll:.TakeScreenshot
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Doozy.Engine.Coroutiner
 ce11ea1f2e0fa5c0dde8c309002e8479 Assembly-CSharp.dll:Doozy.Engine.UI.UIPopupDatabase
@@ -278,7 +279,7 @@ ef3f1be6ed525d69b2f84072ae09ab12 Assembly-CSharp.dll:Doozy.Engine.Touchy.Gesture
 c1da47489a01b8d168c5e96ef2251cf9 Assembly-CSharp.dll:Doozy.Engine.Soundy.SoundDatabase
 c419257ca9a73c550a7b7c65f67deb6a Assembly-CSharp.dll:Lean.Touch.LeanDragCamera
 45f9387638e0ddebbd2fcc6da812f557 Assembly-CSharp.dll:Doozy.Engine.Touchy.TouchySettings
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DefaultTrackableEventHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultTrackableEventHandler
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 a77a6b59fc1ef13d1af8692c0c19290b Assembly-CSharp.dll:Doozy.Engine.UI.Settings.UICanvasSettings
 b5ab642aae745563519c07fced7e64d7 Assembly-CSharp.dll:Doozy.Engine.Nody.NodySettings
@@ -304,7 +305,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 564363b71973ff9b7c6dafd1d3a1fcfb Assembly-CSharp.dll:Lean.Common.Examples.LeanLinkTo
-dff7a11839abb9fb7222280cf3c0a95a Assembly-CSharp.dll:.DefaultModelRecoEventHandler
+dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandler
 95c1cfaedb4c9235f57570bddd2f0d86 Assembly-CSharp.dll:Lean.Touch.LeanPinchScale
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Doozy.Examples.ExampleShowPopup
 c8fe7e466f79d7d996678fdcd8e865d8 Assembly-CSharp.dll:Doozy.Engine.UI.Settings.UIToggleSettings
@@ -313,6 +314,7 @@ ab74db3112376c1b98946df54ab5e472 Assembly-CSharp.dll:Lean.Common.Examples.LeanMa
 f4fa5bb2e0dc51ad8e75b3b667358c8f Assembly-CSharp.dll:Doozy.Engine.UI.UIViewListener
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 2acfd6a4079fb2ab3b393d232a0923d3 Assembly-CSharp.dll:Doozy.Engine.UI.Input.BackButton
+2f8f3477d3bc1b2505cef9a390306ece Assembly-CSharp.dll:.colorchanger
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 c91f167855df48e73b2d722074e6224d Assembly-CSharp.dll:Doozy.Engine.Progress.ProgressTargetImage
 b8fce2b1f8d867362ac87b2a7ff9b014 Assembly-CSharp.dll:Doozy.Engine.UI.Nodes.PortalNode

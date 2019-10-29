@@ -17,3 +17,6 @@ MonoBehaviour:
   Names:
   - MasterCanvas
   - ARCanvas
+  - Arm1Canvas
+  - Bed1Canvas
+  - TAble1Canvas

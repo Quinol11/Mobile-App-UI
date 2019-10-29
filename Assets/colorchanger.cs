@@ -15,13 +15,13 @@ public class colorchanger : MonoBehaviour
     }
     public void ToRosy(){
         rend = GetComponent<Renderer>();
-        rend.material.color = Color();
+        rend.material.color = Color.red;
     }
 
     public void MakeVelvet(){
-        GetComponent<Renderer>().materials[1]=Velvet;
+        GetComponent<Renderer>().materials[0]=Velvet;
     }
      public void MakeLeather(){
-        GetComponent<Renderer>().materials[1]=Leathery;
+        GetComponent<Renderer>().materials[0]=Leathery;
     }
 }

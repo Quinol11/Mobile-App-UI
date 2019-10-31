@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR scene.unity
     guid: 60c6863ccc8e7054fbe4f8b27295e586
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Arm1.unity
     guid: 7cb163324fef2e549aff5c9fbafb9e84
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bed1.unity
     guid: 4be3b715820f548489f6829dda63b4ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Table1.unity
     guid: d9f6e14beda73c6459d48d1794471e23
   m_configObjects: {}

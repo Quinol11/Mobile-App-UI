@@ -1,12 +1,9 @@
 Android
 PlayerPath?
-C:/Users/ASUS/Documents/Android UI/ARwp3 added armchair.apk
+C:/Users/ASUS/Documents/Android UI/Changedscenemanager.apk
 SceneListBegin?
 Assets/Scenes/UI scene.unity
 Assets/Scenes/AR scene.unity
-Assets/Scenes/Arm1.unity
-Assets/Scenes/Bed1.unity
-Assets/Scenes/Table1.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 c4d06f7141c81e5114a5c1c92b6cb894 Assembly-CSharp.dll:Doozy.Engine.Nody.Models.Node
@@ -38,6 +35,7 @@ e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 ac24b2648552eee64b91af065f0f820c Assembly-CSharp.dll:Doozy.Engine.Soundy.SoundySettings
 a400c99721fce5ff2980eee30c65e69d Assembly-CSharp.dll:Doozy.Engine.Progress.Progressor
 c47d6a561c07032b8daf3212a42ad9f1 Assembly-CSharp.dll:Doozy.Engine.UI.UIView
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Passer
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -150,6 +148,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 1283539fac16179e3e70c0832e77742e Assembly-CSharp.dll:Doozy.Engine.Nody.Nodes.ExitNode
 2535168d4111c89c25c9e5df7d237600 Assembly-CSharp.dll:Doozy.Engine.Progress.ProgressTargetText
+e79b387245236a04c6c3a68c58e7be6f Assembly-CSharp.dll:.HideObject
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultInitializationErrorHandler
 1617f63f40e4cfa654388e0d91e132ea Assembly-CSharp.dll:Doozy.Engine.UI.Settings.UIPopupSettings
 6c1ab29ddfcd6014cccb0aadc55da469 Assembly-CSharp.dll:Lean.Touch.LeanPlane

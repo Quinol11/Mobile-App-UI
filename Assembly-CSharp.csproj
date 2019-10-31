@@ -286,6 +286,7 @@
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\StopAllSounds.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Actions\Soundy\UnmuteAllSounds.cs" />
      <Compile Include="Assets\Doozy\Integrations\Playmaker\Scripts\PlaymakerEventDispatcher.cs" />
+     <Compile Include="Assets\HideObject.cs" />
      <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanCircuit.cs" />
      <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanDocumentation.cs" />
      <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanLinkTo.cs" />
@@ -328,6 +329,7 @@
      <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\LevelLoader.cs" />
+     <Compile Include="Assets\Passer.cs" />
      <None Include="Assets\StreamingAssets\Vuforia\ARprototype.xml" />
      <None Include="Assets\Doozy\Examples\Fonts\Quicksand\OFL.txt" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
